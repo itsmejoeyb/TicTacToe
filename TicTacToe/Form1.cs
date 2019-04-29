@@ -10,6 +10,13 @@ using System.Windows.Forms;
 
 namespace TicTacToe
 {
+    //**********************
+    //App: TicTacToe
+    //Framework: WinForms
+    //Dev: Joey Breithaupt
+    //Date: 4/28/2019
+    //Modified: 4/29/2019
+    //**********************
     public partial class Form1 : Form
     {
         bool turn = true;
