@@ -76,14 +76,14 @@ namespace TicTacToe
             }
             else if (x1y0.Text == x1y1.Text && x1y0.Text == x1y2.Text && x1y0.Text != "")
             {
-                if (x0y1.Text == "X")
+                if (x1y0.Text == "X")
                     xWins = true;
                 else
                     oWins = true;
             }
             else if (x2y0.Text == x2y1.Text && x2y0.Text == x2y2.Text && x2y0.Text != "")
             {
-                if (x0y1.Text == "X")
+                if (x2y0.Text == "X")
                     xWins = true;
                 else
                     oWins = true;
